@@ -1,0 +1,32 @@
+.heart{
+    background-image: url('../../../assets/heart.svg');
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 7%;
+    height: 22%;   
+    right: 5px;   
+    top: 28px;
+}
+
+.heartFill{
+    background-image:url('../../../assets/heart-fill.svg');
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 7%;
+    height: 22%;   
+    right: 5px;   
+    top: 28px;
+}
+.card-img-top{
+padding: 15px;
+}
+
+.card-title{
+    font-size: 15PX;
+}
+.cardButtons{
+    float: left;
+}
+.card-body{
+    position: relative;
+}

@@ -1,0 +1,47 @@
+
+<!-- <nav class="navbar navbar-dark bg-dark">
+    <div class="container-fluid">
+      <div class="navbar-brand">
+        Books Store
+      </div>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" #searchInput placeholder="Search" aria-label="Search">
+        <button class="btn btn-success" type="submit" (click)="filterTable(searchInput.value)">Search</button>
+       
+      </form>
+      <a class="nav-link link"  routerLink ="/wishList">Favorites</a>
+      <a class="nav-link home"  routerLink ="/"></a>
+      <a href="#"><i class="fa fa-fw fa-user user"></i></a>
+      
+    </div>
+    </nav> -->
+
+
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="javascript:void(0)"> Books Store</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="mynavbar">
+          <form class="d-flex">
+            <input class="form-control me-2" type="text"  #searchInput placeholder="Search">
+            <button class="btn btn-success" type="button" (click)="filterTable(searchInput.value)">Search</button>
+          </form>
+          <ul class="navbar-nav me-auto">
+            <li class="nav-item">
+              <a class="nav-link" routerLink ="/wishList">Favorites</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" routerLink ="/"><i class="fa fa-fw fa-home user"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link"routerLink ="/login"><i class="fa fa-fw fa-user user"></i></a>
+            </li>
+          </ul>
+          
+        </div>
+      </div>
+    </nav>
+
+<router-outlet></router-outlet>

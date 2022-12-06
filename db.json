@@ -1,0 +1,87 @@
+{
+  "books": [
+    {
+      "id": 1,
+      "author": "Thomas Burke",
+      "title": "London in My Time",
+      "cost": 300,
+      "link": "https://sahityachintan.com/books-library/english/london-in-my-time/page1.html",
+      "wishList": true,
+      "image": "/assets/London-in-My-Time.png"
+    },
+    {
+      "id": 7,
+      "author": "Anna Sewell",
+      "title": "Black Beauty",
+      "cost": 1000,
+      "wishList": true,
+      "link": "https://sahityachintan.com/books-library/english/london-in-my-time/page1.html",
+      "image": "/assets/black-beauty.png"
+    },
+    {
+      "id": 12,
+      "author": "Henry David Thoreau",
+      "title": "Night and Moonlight",
+      "cost": 10,
+      "wishList": false,
+      "link": "https://sahityachintan.com/books-library/english/london-in-my-time/page1.html",
+      "image": "/assets/night-and-moonlight.png"
+    },
+    {
+      "id": 13,
+      "author": "Sir Arthur Conan Doyle",
+      "title": "The Adventures of Sherlock Holmes",
+      "cost": 222,
+      "wishList": false,
+      "link": "https://sahityachintan.com/books-library/english/the-adventures-of-sherlock-holmes/page1.html",
+      "image": "/assets/The-Adventures-of-Sherlock-Holmes.png"
+    },
+    {
+      "id": 15,
+      "author": "Sir Arthur Conan Doyle",
+      "title": "The Refugees - a tale of two continents",
+      "cost": 20,
+      "wishList": false,
+      "link": "https://sahityachintan.com/books-library/english/the-refugees-a-tale-of-two-continents/page1.html",
+      "image": "/assets/the-refugees.png"
+    },
+    {
+      "id": 16,
+      "author": "Napoleon Hill",
+      "title": "Think and Grow Rich!",
+      "cost": 20,
+      "wishList": true,
+      "link": "https://sahityachintan.com/books-library/english/think-and-grow-rich/page1.html",
+      "image": "/assets/think-and-grow-rich-napoleon-hill.png"
+    },
+    {
+      "id": 17,
+      "author": "Robert Louis Stevenson",
+      "title": "Treasure Island",
+      "cost": 20,
+      "wishList": true,
+      "link": "https://sahityachintan.com/books-library/english/treasure-island/page1.html",
+      "image": "/assets/treasure-island.png"
+    }
+  ],
+  "uploadFile": [
+    {
+      "id": 1
+    },
+    {
+      "id": 2
+    },
+    {
+      "id": 3
+    },
+    {
+      "id": 4
+    },
+    {
+      "id": 5
+    },
+    {
+      "id": 6
+    }
+  ]
+}

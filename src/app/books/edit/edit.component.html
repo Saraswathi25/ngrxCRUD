@@ -1,0 +1,30 @@
+<div class="container">
+    <legend>
+        Update a  Book
+    </legend>
+    <div class="mb-3">
+        <label for="txtName" class="form-label">Name of the Book</label>
+        <input type="text" [(ngModel)]="bookForm.title" class="form-control" id="txtName">
+      </div>
+      <div class="mb-3">
+        <label for="txtAuthor" class="form-label">Author</label>
+        <input type="text"[(ngModel)]="bookForm.author" class="form-control" id="txtAuthor" >
+      </div>
+      <div class="mb-3">
+        <label for="txtCost" class="form-label">Cost</label>
+        <input type="number"  [(ngModel)]="bookForm.cost" class="form-control" id="txtCost" >
+      </div>
+      <div class="mb-3">
+        <label for="txtCost" class="form-label">image</label>
+        <input type="number"  [(ngModel)]="bookForm.image" class="form-control" id="txtCost" >
+      </div>
+      <div class="mb-3">
+        <label for="txtCost" class="form-label">link</label>
+        <input type="number"  [(ngModel)]="bookForm.link" class="form-control" id="txtCost" >
+      </div>
+      <input class="form-check-input" type="checkbox" [(ngModel)]="bookForm.wishList"value="" id="flexCheckDefault">
+      <label class="form-check-label" for="flexCheckDefault">
+       Add to WishList
+      </label><br><br>
+      <button type="button" class="btn btn-dark"  (click)="update()">Update</button>
+</div>

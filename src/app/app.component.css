@@ -1,0 +1,8 @@
+.link{
+    color: white;
+    position: relative;
+    left:30%
+}
+.navbar-collapse{
+    flex-grow: 0;
+}
